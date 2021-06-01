@@ -12,7 +12,7 @@ class DataSource {
                 Live(
                     "LIVE #001 - Como ter um perfil de desenvolvedor campeão no Linkedin",
                     "Kaique Ocanha",
-                    "http://i3.ytimg.com/vi/7jvIJPgpcPs/maxresdefault.jpg",
+                    "https://i3.ytimg.com/vi/7jvIJPgpcPs/maxresdefault.jpg",
                     "https://youtu.be/7jvIJPgpcPs"
                 )
             )
@@ -20,7 +20,7 @@ class DataSource {
                 Live(
                     "LIVE #002 - A arte de escrever programas legíveis! + 20 dicas práticas! (PARTE 1)",
                     "Kaique Ocanha",
-                    "http://i3.ytimg.com/vi/gaLOFIwDFLI/maxresdefault.jpg",
+                    "https://i3.ytimg.com/vi/gaLOFIwDFLI/maxresdefault.jpg",
                     "https://youtu.be/gaLOFIwDFLI"
                 )
             )
@@ -28,7 +28,7 @@ class DataSource {
                 Live(
                     "LIVE #003 - A arte de escrever programas legíveis! + 20 dicas práticas! - (PARTE 2)",
                     "Kaique Ocanha",
-                    "http://i3.ytimg.com/vi/VBfs42u4QKA/maxresdefault.jpg",
+                    "https://i3.ytimg.com/vi/VBfs42u4QKA/maxresdefault.jpg",
                     "https://youtu.be/VBfs42u4QKA"
                 )
             )
@@ -36,7 +36,7 @@ class DataSource {
                 Live(
                     "LIVE #004 - Desenvolvedor Android Júnior: o que você precisa saber!",
                     "Kaique Ocanha",
-                    "http://i3.ytimg.com/vi/gLNzLRqHF8c/maxresdefault.jpg",
+                    "https://i3.ytimg.com/vi/gLNzLRqHF8c/maxresdefault.jpg",
                     "https://youtu.be/gLNzLRqHF8c"
                 )
             )
@@ -44,7 +44,7 @@ class DataSource {
                 Live(
                     "LIVE #005 - Criando e publicando seu primeiro app Android!",
                     "Kaique Ocanha",
-                    "http://i3.ytimg.com/vi/PRmkgeX5pOs/maxresdefault.jpg",
+                    "https://i3.ytimg.com/vi/PRmkgeX5pOs/maxresdefault.jpg",
                     "https://youtu.be/PRmkgeX5pOs"
                 )
             )
@@ -52,7 +52,7 @@ class DataSource {
                 Live(
                     "LIVE #006 - Dominando o RecyclerView com Kotlin no Android!",
                     "Kaique Ocanha",
-                    "http://i3.ytimg.com/vi/EB32R-u_tac/maxresdefault.jpg",
+                    "https://i3.ytimg.com/vi/EB32R-u_tac/maxresdefault.jpg",
                     "https://youtu.be/EB32R-u_tac"
                 )
             )
