@@ -1,9 +1,12 @@
 package com.ocanha.kotlinrecyclerview
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,12 +23,21 @@ class MainActivity : AppCompatActivity() {
 
     private fun initRecyclerView() {
 
-        liveAdapter = LiveAdapter()
+        liveAdapter = LiveAdapter { live ->
+            openLink(live.link)
+        }
 
         recyclerview.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
             adapter = liveAdapter
         }
+
+    }
+
+    private fun openLink(link: String) {
+
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(link))
+        startActivity(browserIntent)
 
     }
 
